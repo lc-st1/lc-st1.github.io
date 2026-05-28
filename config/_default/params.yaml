@@ -6,7 +6,7 @@ hugoblox:
     tagline: Robotics and Mechanical Engineer
     description: Luca Ciampaglia is an Electrical and Mechanical Engineer focusing on Robotics with a M.S. in Robotics from Northeastern Univerisity.
   theme:
-    mode: system
+    mode: dark
     pack: dracula
     colors:
       primary: ""
