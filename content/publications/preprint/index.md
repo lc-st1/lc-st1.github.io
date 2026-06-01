@@ -1,54 +1,42 @@
 ---
-title: "An example preprint / working paper"
+title: "Thrust Regulation Through Wing Linkage Modulation on the Aerobat Platform: Piezoelectric Slip-Stick Actuated Regulator Development"
 authors:
 - me
-date: "2019-04-07T00:00:00Z"
+date: "2026-05-28T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2026-05-28T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["thesis"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+abstract: Aerobat is a bat-inspired flapping-wing robot with a wing gait generate by the computational structure, a planar linkage of carbon fiber links driven by a single motor. This design minimizes weight but couples both wings to a shared input motor, eliminating independent thrust control and preventing asymmetric maneuvers. This thesis investigates thrust regulation by modifying the effective length of the first radius link R1 in the computational structure. Static experiments using FDM-printed R1 links at three lengths (28.58, 29.33, and 30.08 mm) across 3,4, and 5 Hz flapping frequencies demonstrated that a 1.5 mm length increase produced a 37% increase in peak lift force and shifted peak force timing within the downstroke. An additional experiment using a string-actuated regulator mechanism was performed. Further actuation methods were evaluated sub-gram micro-servo and piezoelectric slip-stick. After both the string-tension and micro-servo actuation methods failed due to structural member compliance and motor fragility respectively, a TULA-50 piezoelectric slip-stick actuator was selected. Multiple force-amplifying mechanisms were prototyped, resulting in a direct-drive variable-length mechanism. This final mechanism was demonstrated in a preliminary bench-top test, though insufficient force output prevented dynamic testing during flapping. This work establishes linkage-length modulation via embedded slip-stick actuation as a viable approach to independent wing thrust control.
 
 tags:
-- Large Language Models
+- Mechanical Engineering
+- Acutator
+- Piezoelectric
+- UAV
+- Flapping Wing
+- Aerial
+- Robot
 
 featured: true
 
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
+    arxiv: 2604.18900
 
 links:
 - type: preprint
   provider: arxiv
-  id: 1512.04133v1
-- type: code
-  url: https://github.com/HugoBlox/kit
-- type: slides
-  url: https://www.slideshare.net/
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
-- type: video
-  url: https://youtube.com
-- type: custom
-  label: Custom Link
-  url: http://example.org
+  id: 2604.18900
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -62,8 +50,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -71,11 +58,3 @@ projects:
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ""
----
-
-This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
-
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
