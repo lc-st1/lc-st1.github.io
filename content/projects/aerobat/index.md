@@ -1,6 +1,6 @@
 ---
 title: Aerobat
-date: 2026-4-30
+date: 2026-04-30
 links:
   - type: site
     url: https://siliconsynapse.sites.northeastern.edu/5202-2/
