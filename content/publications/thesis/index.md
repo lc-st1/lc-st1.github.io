@@ -29,10 +29,6 @@ tags:
 
 featured: true
 
-hugoblox:
-  ids:
-    arxiv: 2604.18900
-
 links:
 - type: preprint
   provider: arxiv

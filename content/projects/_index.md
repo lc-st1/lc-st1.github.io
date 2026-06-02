@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Research Projects
-      text: Here is a selection of the research project I have worked on previously.
+      text: Here is a selection of the research projects I have worked on, both academically and privately.
       filters:
         folders:
           - projects
